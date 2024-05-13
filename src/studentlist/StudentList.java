@@ -28,6 +28,7 @@ public class StudentList {
         studentList[0]=s1;
         studentList[1]=s2;
         studentList[2]=s3;
+        studentList[3]=s4;
        
         
         for (Student s : studentList){
