@@ -22,9 +22,13 @@ public class StudentList {
         s2.setName("Palak Shah");
         Student s3 = new Student();
         s3.setName("Sneha Christian");
+        Student s4 = new Student();
+        s4.setName("Erick Christian");
+        
         studentList[0]=s1;
         studentList[1]=s2;
         studentList[2]=s3;
+        studentList[3]=s4;
         
         for (Student s : studentList){
             System.out.println(s.getName());
